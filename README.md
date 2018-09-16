@@ -1,5 +1,5 @@
 # Feed-Reader
-Feed Reader is used to retrieve feeds from various websites and displays them for easy viewing using the Google Feed Reader API. The primary goal of this project is to demostrate browser based testing using the Jasmine Testing library. 
+Feed Reader is used to retrieve feeds from various websites and displays them for easy viewing using the Google Feed Reader API. The primary goal of this project is to demostrate browser based testing using the Jasmine Testing library. It is developed using the TDD (Test Driven Development) methodology.
 
 ### How to run
 * You can clone the repository and open 'index.html' to run the project locally. (or)
