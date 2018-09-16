@@ -11,13 +11,13 @@ The following test cases are used against which the application is checked -
   * checks if allFeeds variable is defined and not empty
   * check if url is defined and not empty for each feed
   * check if name is defined and not empty for each feed
-* Test Suite 2 - Sidebar visibility
+* #### Test Suite 2 - Sidebar visibility
   * check if menu element is hidden by default
   * check if menu toggles visibility on click
-* Test Suite 3 - Initial entries
+* #### Test Suite 3 - Initial entries
   * handle async loadFeed() function call
   * check if initial elements are added to the feed
-* Test Suite 4 - New Feed selection
+* #### Test Suite 4 - New Feed selection
   * call async function loadFeed() and store entries of first feed to Array
   * compare the entries from feed one and feed two and check for changes
 
