@@ -7,7 +7,7 @@ Feed Reader is used to retrieve feeds from various websites and displays them fo
 
 ### Test Cases
 The following test cases are used against which the application is checked -
-* Test Suite 1 - RSS Feed fetching
+* #### Test Suite 1 - RSS Feed fetching
   * checks if allFeeds variable is defined and not empty
   * check if url is defined and not empty for each feed
   * check if name is defined and not empty for each feed
