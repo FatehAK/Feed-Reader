@@ -1,5 +1,5 @@
-# Feed-Reader
-Feed Reader is used to retrieve feeds from various websites and displays them for easy viewing using the Google Feed Reader API. The primary goal of this project is to demostrate browser based testing using the Jasmine Testing library. It is developed using the TDD (Test Driven Development) methodology.
+# FeedSly
+FeedSly retrieves feeds from various websites and displays them for easy viewing using the Google Feeds API. The primary goal of this project is to demostrate browser based testing using the Jasmine Testing library. It is developed using the TDD (Test Driven Development) methodology.
 
 ### How to run
 * You can checkout the project live - https://fatehak.github.io/Feed-Reader (or)
@@ -22,7 +22,7 @@ The following test cases are used against which the application is checked -
   * compare the entries from feed one and feed two and check for changes
 
 ### Dependencies
-* Google Feed Reader API [link](http://google.com/jsapi)
+* Google Feeds API [link](http://google.com/jsapi)
 * Jasmine Testing library [link](https://jasmine.github.io/pages/getting_started.html)
 * jQuery [link](http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js)
 * HandlebarJS [link](http://cdn.jsdelivr.net/handlebarsjs/2.0.0/handlebars.min.js)
