@@ -2,8 +2,8 @@
 Feed Reader is used to retrieve feeds from various websites and displays them for easy viewing using the Google Feed Reader API. The primary goal of this project is to demostrate browser based testing using the Jasmine Testing library. It is developed using the TDD (Test Driven Development) methodology.
 
 ### How to run
-* You can clone the repository and open 'index.html' to run the project locally. (or)
-* You can checkout the project live using this [link](https://fatehak.github.io/Feed-Reader/).
+* You can checkout the project live - https://fatehak.github.io/Feed-Reader (or)
+* You can clone the repository and open 'index.html' to run the project locally. 
 
 ### Test Cases
 The following test cases are used against which the application is checked -
