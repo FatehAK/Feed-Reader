@@ -2,7 +2,7 @@
 FeedSly retrieves feeds from various websites and displays them for easy viewing using the Google Feeds API. The primary goal of this project is to demostrate browser based testing using the Jasmine Testing library. It is developed using the TDD (Test Driven Development) methodology.
 
 ### How to run
-* You can checkout the project live - https://fatehak.github.io/Feed-Reader (or)
+* You can checkout the project live - https://fatehak.github.io/FeedSly (or)
 * You can clone the repository and open 'index.html' to run the project locally. 
 
 ### Test Cases
