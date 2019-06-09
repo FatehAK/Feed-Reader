@@ -1,5 +1,5 @@
 # FeedSly
-FeedSly retrieves feeds from websites using the Google Feeds API. The primary goal of this project is to demostrate browser based testing using the Jasmine testing library. It is developed following the TDD (Test Driven Development) methodology.
+FeedSly retrieves feeds from websites using the Google Feeds API. The primary goal of this project is to demonstrate browser based testing using the Jasmine testing library. It is developed following the TDD (Test Driven Development) methodology.
 
 ### How to run
 * You can checkout the project live - https://feedsly.netlify.com (or)
