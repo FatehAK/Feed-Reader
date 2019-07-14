@@ -1,5 +1,5 @@
 # FeedSly
-FeedSly is RSS feed reader powered by the Google Feeds API. It demonstrates browser based testing using the Jasmine testing library and is developed following the TDD (Test Driven Development) methodology.
+FeedSly is an RSS feed reader powered by the Google Feeds API. It demonstrates browser based testing using the Jasmine testing library and is developed following the TDD (Test Driven Development) methodology.
 
 ### How to run
 * You can checkout the project live - https://feedsly.netlify.com (or)
