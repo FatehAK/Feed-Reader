@@ -954,7 +954,7 @@ getJasmineRequireObj().Any = function() {
     if (this.expectedObject == Object) {
       return typeof other == 'object';
     }
-    
+
     if (this.expectedObject == Boolean) {
       return typeof other == 'boolean';
     }
@@ -1037,7 +1037,6 @@ getJasmineRequireObj().Clock = function() {
       },
       installed = false,
       timer;
-
 
     self.install = function() {
       replace(global, fakeTimingFunctions);
@@ -1739,7 +1738,6 @@ getJasmineRequireObj().QueueRunner = function(j$) {
       self = this,
       iterativeIndex;
 
-
     for(iterativeIndex = recursiveIndex; iterativeIndex < length; iterativeIndex++) {
       var queueableFn = queueableFns[iterativeIndex];
       if (queueableFn.fn.length > 0) {
@@ -1845,7 +1843,6 @@ getJasmineRequireObj().ReportDispatcher = function() {
 
   return ReportDispatcher;
 };
-
 
 getJasmineRequireObj().SpyRegistry = function(j$) {
 
@@ -2436,7 +2433,6 @@ getJasmineRequireObj().toBeGreaterThan = function() {
 
   return toBeGreaterThan;
 };
-
 
 getJasmineRequireObj().toBeLessThan = function() {
   function toBeLessThan() {

@@ -5,7 +5,7 @@
  * also uses the Handlebars templating library and jQuery.
  */
 
-// The names and URLs to all of the feeds.
+//The names and URLs to all of the feeds.
 var allFeeds = [{
     name: 'Udacity Blog',
     url: 'http://blog.udacity.com/feed'
@@ -24,7 +24,7 @@ var allFeeds = [{
    asynchonously and will call this function when the API is loaded.
  */
 function init() {
-    // Load the first feed defined (index of 0)
+    //Load the first feed defined (index of 0)
     loadFeed(0);
 }
 
@@ -51,8 +51,8 @@ function loadFeed(id, cb) {
                 entries = result.feed.entries,
                 entryTemplate = Handlebars.compile($('.tpl-entry').html());
 
-            title.html(feedName); // Set the header text
-            container.empty(); // Empty out all previous entries
+            title.html(feedName); //Set the header text
+            container.empty(); //Empty out all previous entries
 
             /* Loop through the entries just loaded via the Feed Reader API
                and then parse that entry against the entryTemplate and append
@@ -62,13 +62,13 @@ function loadFeed(id, cb) {
                 container.append(entryTemplate(entry));
             });
 
-            // call the done() function
+            //call the done() function
             if (cb) {
                 cb();
             }
         },
         error: function () {
-            // run only the callback without attempting to parse result due to error
+            //run only the callback without attempting to parse result due to error
             if (cb) {
                 cb();
             }
