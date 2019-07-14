@@ -31,19 +31,17 @@
     <div class="feed"></div>
 
     <script class="tpl-entry" type="text/x-handlebars-template">
-            <a class="entry-link" href="{{link}}" target="_blank">
-                <article class="entry">
-                    <h2>{{title}}</h2>
-                    <p>{{contentSnippet}}</p>
-                </article>
-            </a>
-        </script>
+        <a class="entry-link" href="{{link}}" target="_blank">
+            <article class="entry">
+                <h2>{{title}}</h2>
+                <p>{{contentSnippet}}</p>
+            </article>
+        </a>
+    </script>
 
     <script class="tpl-feed-list-item" type="text/x-handlebars-template">
-            <li>
-                <a href="#" data-id="{{id}}">{{name}}</a>
-            </li>
-        </script>
+        <li><a href="#" data-id="{{id}}">{{name}}</a></li>
+    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/handlebarsjs/2.0.0/handlebars.min.js"></script>
